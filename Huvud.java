@@ -20,7 +20,7 @@ class Huvud
 
     public void initiera(JFrame frame)
     {
-        frame.setTitle("Rörelsemängd");
+        frame.setTitle("RÃ¶relsemÃ¤ngd");
         frame.addWindowListener(new WindowAdapter()
                                     {
                                         public void windowClosing(WindowEvent event)
