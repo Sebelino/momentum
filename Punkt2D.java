@@ -98,7 +98,7 @@ public class Punkt2D
         else if(x == 0 &&
                 y < 0)
         {
-            return new Double(-Math.PI/2);
+            return -Math.PI/2;
         }
         else if(x > 0 &&
                 y == 0)
