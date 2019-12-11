@@ -85,7 +85,7 @@ public class Punkt2D
         {
             return null;
         }
-        return new Double(argRadians());
+        return argRadians();
     }
 
     public Double argRadians()
