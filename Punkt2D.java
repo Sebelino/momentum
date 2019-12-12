@@ -103,7 +103,7 @@ public class Punkt2D
         else if(x > 0 &&
                 y == 0)
         {
-            return new Double(0);
+            return 0.0;
         }
         else if(x < 0 &&
                 y == 0)
