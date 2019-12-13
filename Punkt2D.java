@@ -113,7 +113,7 @@ public class Punkt2D
         else if(x > 0 &&
                 y > 0)
         {
-            return new Double(Math.atan(y/x));
+            return Math.atan(y/x);
         }
         else if(x < 0 &&
                 y > 0)
